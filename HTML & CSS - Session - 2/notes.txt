@@ -1,0 +1,74 @@
+-> Types of Selectors:
+    --> Tag selector:
+        h1{....}
+
+    --> Universal selector(*):
+        *{.....}
+
+    --> id and class selector
+
+-> ID Selector: Target elements with a unique ID (#uniqueid)
+
+    eg:
+      
+      main{
+        ----
+      }
+
+      <div id="main"></div>
+
+--> Class Selector: Target elements with a specific classname (.classname).
+
+    eg:
+
+     .err{
+        ....
+        ....
+     }
+
+     <p class="err"></p>
+
+--> Types of Elements:
+
+    1. Inline elements: It is one line.
+
+    eg:
+    label, span, img, input etc.
+
+    2. Blocklevel elements: start with new row.
+
+    eg:
+    h1, p, div, semantic tags
+
+-> HTML5 introduced semantic tags (code is more readable).
+    main, section, header, nav, footer, aside, article, audio, video etc.
+
+-> Width
+-> height
+-> Margin: outside the border
+    margin-top, right, botto, left
+    margin-top: 30px;
+    margin: 10px 20px;
+
+-> padding: inside the border
+    padding-top, right, botto, left
+    padding-top: 30px;
+    padding: 10px 20px;
+
+-> Div tag: It is a divisible tag and block level element. It creates a container
+where we design our layout.
+
+    eg:
+
+    <div>
+      -----
+    </div>
+
+-> Flex or Flexbox Properities: It is used to separate elements in one row, to use
+it the parent element have a property display flex.
+
+eg: display: flex;
+
+--> Form tag: Collection of fields like textbox, radio button and checkbox etc.
+
+
